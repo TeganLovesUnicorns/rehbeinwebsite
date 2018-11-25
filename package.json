@@ -4,7 +4,7 @@
     "dev": "next \"src\"",
     "build": "next build \"src\"",
     "start": "next start  \"src\" -p $PORT",
-    "clean": "rimraf \"dist/functions\" && rimraf \"dist/public\" && rimraf \".next\""
+    "clean": "rimraf \"dist\" && rimraf \".next\""
   },
   "dependencies": {
     "@firebase/app": "^0.1.1",
