@@ -14,7 +14,7 @@
 # /functions
 functions/node_modules
 functions/build
-src/functions/node_modules
+# src/functions/node_modules
 # misc
 .DS_Store
 .firebase
