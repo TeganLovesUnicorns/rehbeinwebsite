@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "src/public",
+    "public": "dist/public",
     "rewrites":[ 
       {
         "source": "**/**",
@@ -12,7 +12,7 @@
     "indexes": "firestore.indexes.json"
   },
   "functions": {
-    "source": "src/functions"
+    "source": "dist/functions"
   },
   "storage": {
     "rules": "storage.rules"
