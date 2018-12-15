@@ -1,7 +1,7 @@
 {
   "name": "create-next-example-app",
   "scripts": {
-    "dev": "next \"src\"",
+    "dev": "next \"src/app\"",
     "build": "next build \"src\"",
     "start": "next start  \"src\" -p $PORT",
     "clean": "rimraf \"dist\" && rimraf \".next\""
