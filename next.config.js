@@ -10,5 +10,5 @@ module.exports = withSASS(withCSS({
 
     return config
   },
-  distDir: "../dist"
+  distDir: "../../dist"
 }))
