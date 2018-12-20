@@ -6,13 +6,17 @@
         "source": "**/**",
         "function": "app-next"
       }
-    ]},
+    ],
+    "predeploy": "yarn build-public"
+  },
   "firestore": {
     "rules": "firestore.rules",
     "indexes": "firestore.indexes.json"
   },
   "functions": {
-    "source": "dist/functions"
+    "source": "dist/functions",
+    "predeploy":
+    "yarn build-funcs && yarn build-app && yarn copy-deps"
   },
   "storage": {
     "rules": "storage.rules"
