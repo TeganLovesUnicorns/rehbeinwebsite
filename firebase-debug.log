@@ -1,0 +1,255 @@
+[debug] [2019-02-04T23:48:13.172Z] ----------------------------------------------------------------------
+[debug] [2019-02-04T23:48:13.173Z] Command:       /usr/local/Cellar/node/9.3.0_1/bin/node /Users/danielrehbein/Sites/rehbeinwebsite/node_modules/.bin/firebase serve --only functions,hosting
+[debug] [2019-02-04T23:48:13.174Z] CLI Version:   6.3.1
+[debug] [2019-02-04T23:48:13.174Z] Platform:      darwin
+[debug] [2019-02-04T23:48:13.174Z] Node Version:  v9.3.0
+[debug] [2019-02-04T23:48:13.174Z] Time:          Mon Feb 04 2019 17:48:13 GMT-0600 (CST)
+[debug] [2019-02-04T23:48:13.174Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-02-04T23:48:13.182Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-02-04T23:48:13.182Z] > authorizing via signed-in user
+[debug] [2019-02-04T23:48:13.182Z] [iam] checking project danielrehbeinwebsite for permissions ["firebase.projects.get"]
+[debug] [2019-02-04T23:48:13.184Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/danielrehbeinwebsite:testIamPermissions  
+
+[debug] [2019-02-04T23:48:13.512Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-04T23:48:13.514Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/danielrehbeinwebsite  
+ 
+[debug] [2019-02-04T23:48:13.753Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/danielrehbein/Sites/rehbeinwebsite'...
+[info] 
+[warn] ⚠  functions: Cannot start emulator. Error: Cannot find module '@google-cloud/functions-emulator/src/config'
+[debug] [2019-02-04T23:48:13.757Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/933721233999/clients/_:getWebAppConfig  
+ 
+[debug] [2019-02-04T23:48:14.115Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: dist/public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-02-04T23:54:49.954Z] ----------------------------------------------------------------------
+[debug] [2019-02-04T23:54:49.956Z] Command:       /usr/local/Cellar/node/9.3.0_1/bin/node /Users/danielrehbein/Sites/rehbeinwebsite/node_modules/.bin/firebase serve --only functions,hosting
+[debug] [2019-02-04T23:54:49.957Z] CLI Version:   6.3.1
+[debug] [2019-02-04T23:54:49.957Z] Platform:      darwin
+[debug] [2019-02-04T23:54:49.957Z] Node Version:  v9.3.0
+[debug] [2019-02-04T23:54:49.957Z] Time:          Mon Feb 04 2019 17:54:49 GMT-0600 (CST)
+[debug] [2019-02-04T23:54:49.957Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-02-04T23:54:49.967Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-02-04T23:54:49.967Z] > authorizing via signed-in user
+[debug] [2019-02-04T23:54:49.967Z] [iam] checking project danielrehbeinwebsite for permissions ["firebase.projects.get"]
+[debug] [2019-02-04T23:54:49.968Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-02-04T23:54:49.969Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-02-04T23:54:50.777Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-04T23:54:50.787Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/danielrehbeinwebsite:testIamPermissions  
+
+[debug] [2019-02-04T23:54:51.066Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-04T23:54:51.068Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/danielrehbeinwebsite  
+ 
+[debug] [2019-02-04T23:54:51.330Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/danielrehbein/Sites/rehbeinwebsite'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2019-02-04T23:54:52.032Z] Fetching environment
+[debug] [2019-02-04T23:54:52.040Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/933721233999:getServerAppConfig  
+ 
+[debug] [2019-02-04T23:54:52.041Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/933721233999/clients/_:getWebAppConfig  
+ 
+[debug] [2019-02-04T23:54:52.371Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-04T23:54:52.372Z] Starting @google-cloud/functions-emulator
+[debug] [2019-02-04T23:54:53.650Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: dist/public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-02-04T23:54:53.927Z] Parsing function triggers
+[info] [hosting] Rewriting / to local function app-next
+[info] ✔  functions: test.hello: http://localhost:5001/danielrehbeinwebsite/us-central1/test-hello
+[info] ✔  functions: app.next: http://localhost:5001/danielrehbeinwebsite/us-central1/app-next
+[info] [hosting] Rewriting /apple-touch-icon-precomposed.png to local function app-next
+[info] [hosting] Rewriting /apple-touch-icon.png to local function app-next
+[info] [hosting] Rewriting / to local function app-next
+[debug] [2019-02-05T01:23:45.507Z] ----------------------------------------------------------------------
+[debug] [2019-02-05T01:23:45.509Z] Command:       /usr/local/Cellar/node/9.3.0_1/bin/node /Users/danielrehbein/Sites/rehbeinwebsite/node_modules/.bin/firebase serve --only functions,hosting
+[debug] [2019-02-05T01:23:45.509Z] CLI Version:   6.3.1
+[debug] [2019-02-05T01:23:45.509Z] Platform:      darwin
+[debug] [2019-02-05T01:23:45.509Z] Node Version:  v9.3.0
+[debug] [2019-02-05T01:23:45.509Z] Time:          Mon Feb 04 2019 19:23:45 GMT-0600 (CST)
+[debug] [2019-02-05T01:23:45.509Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-02-05T01:23:45.517Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-02-05T01:23:45.518Z] > authorizing via signed-in user
+[debug] [2019-02-05T01:23:45.518Z] [iam] checking project danielrehbeinwebsite for permissions ["firebase.projects.get"]
+[debug] [2019-02-05T01:23:45.519Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-02-05T01:23:45.519Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-02-05T01:23:45.720Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-05T01:23:45.736Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/danielrehbeinwebsite:testIamPermissions  
+
+[debug] [2019-02-05T01:23:46.001Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-05T01:23:46.002Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/danielrehbeinwebsite  
+ 
+[debug] [2019-02-05T01:23:46.223Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/danielrehbein/Sites/rehbeinwebsite'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2019-02-05T01:23:46.681Z] Fetching environment
+[debug] [2019-02-05T01:23:46.687Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/933721233999:getServerAppConfig  
+ 
+[debug] [2019-02-05T01:23:46.688Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/933721233999/clients/_:getWebAppConfig  
+ 
+[debug] [2019-02-05T01:23:47.040Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-05T01:23:47.041Z] Starting @google-cloud/functions-emulator
+[debug] [2019-02-05T01:23:47.079Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: dist/public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-02-05T01:23:48.111Z] Parsing function triggers
+[info] ✔  functions: test.hello: http://localhost:5001/danielrehbeinwebsite/us-central1/test-hello
+[info] ✔  functions: app.next: http://localhost:5001/danielrehbeinwebsite/us-central1/app-next
+[info] [hosting] Rewriting / to local function app-next
+[debug] [2019-02-05T01:37:27.485Z] ----------------------------------------------------------------------
+[debug] [2019-02-05T01:37:27.487Z] Command:       /usr/local/Cellar/node/9.3.0_1/bin/node /Users/danielrehbein/Sites/rehbeinwebsite/node_modules/.bin/firebase serve --only functions,hosting
+[debug] [2019-02-05T01:37:27.487Z] CLI Version:   6.3.1
+[debug] [2019-02-05T01:37:27.487Z] Platform:      darwin
+[debug] [2019-02-05T01:37:27.487Z] Node Version:  v9.3.0
+[debug] [2019-02-05T01:37:27.488Z] Time:          Mon Feb 04 2019 19:37:27 GMT-0600 (CST)
+[debug] [2019-02-05T01:37:27.488Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-02-05T01:37:27.495Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-02-05T01:37:27.495Z] > authorizing via signed-in user
+[debug] [2019-02-05T01:37:27.495Z] [iam] checking project danielrehbeinwebsite for permissions ["firebase.projects.get"]
+[debug] [2019-02-05T01:37:27.497Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/danielrehbeinwebsite:testIamPermissions  
+
+[debug] [2019-02-05T01:37:27.784Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-05T01:37:27.786Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/danielrehbeinwebsite  
+ 
+[debug] [2019-02-05T01:37:28.149Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/danielrehbein/Sites/rehbeinwebsite'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2019-02-05T01:37:28.508Z] Fetching environment
+[debug] [2019-02-05T01:37:28.510Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/933721233999:getServerAppConfig  
+ 
+[debug] [2019-02-05T01:37:28.510Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/933721233999/clients/_:getWebAppConfig  
+ 
+[debug] [2019-02-05T01:37:28.707Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-05T01:37:28.707Z] Starting @google-cloud/functions-emulator
+[debug] [2019-02-05T01:37:28.827Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: dist/public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-02-05T01:37:29.754Z] Parsing function triggers
+[info] ✔  functions: app.next: http://localhost:5001/danielrehbeinwebsite/us-central1/app-next
+[info] ✔  functions: test.hello: http://localhost:5001/danielrehbeinwebsite/us-central1/test-hello
+[info] [hosting] Rewriting / to local function app-next
+[info] [hosting] Rewriting / to local function app-next
+[info] [hosting] Rewriting / to local function app-next
+[info] [hosting] Rewriting /test to local function app-next
+[debug] [2019-02-05T01:41:14.804Z] ----------------------------------------------------------------------
+[debug] [2019-02-05T01:41:14.806Z] Command:       /usr/local/Cellar/node/9.3.0_1/bin/node /Users/danielrehbein/Sites/rehbeinwebsite/node_modules/.bin/firebase serve --only functions,hosting
+[debug] [2019-02-05T01:41:14.806Z] CLI Version:   6.3.1
+[debug] [2019-02-05T01:41:14.806Z] Platform:      darwin
+[debug] [2019-02-05T01:41:14.806Z] Node Version:  v9.3.0
+[debug] [2019-02-05T01:41:14.807Z] Time:          Mon Feb 04 2019 19:41:14 GMT-0600 (CST)
+[debug] [2019-02-05T01:41:14.807Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-02-05T01:41:14.815Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-02-05T01:41:14.816Z] > authorizing via signed-in user
+[debug] [2019-02-05T01:41:14.816Z] [iam] checking project danielrehbeinwebsite for permissions ["firebase.projects.get"]
+[debug] [2019-02-05T01:41:14.818Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/danielrehbeinwebsite:testIamPermissions  
+
+[debug] [2019-02-05T01:41:15.157Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-05T01:41:15.160Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/danielrehbeinwebsite  
+ 
+[debug] [2019-02-05T01:41:15.404Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/danielrehbein/Sites/rehbeinwebsite'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2019-02-05T01:41:15.839Z] Fetching environment
+[debug] [2019-02-05T01:41:15.841Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/933721233999:getServerAppConfig  
+ 
+[debug] [2019-02-05T01:41:15.842Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/933721233999/clients/_:getWebAppConfig  
+ 
+[debug] [2019-02-05T01:41:16.090Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-05T01:41:16.090Z] Starting @google-cloud/functions-emulator
+[debug] [2019-02-05T01:41:16.281Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: dist/public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-02-05T01:41:17.147Z] Parsing function triggers
+[info] ✔  functions: test.hello: http://localhost:5001/danielrehbeinwebsite/us-central1/test-hello
+[info] ✔  functions: app.next: http://localhost:5001/danielrehbeinwebsite/us-central1/app-next
+[debug] [2019-02-05T02:40:03.293Z] ----------------------------------------------------------------------
+[debug] [2019-02-05T02:40:03.295Z] Command:       /usr/local/Cellar/node/9.3.0_1/bin/node /Users/danielrehbein/Sites/rehbeinwebsite/node_modules/.bin/firebase serve --only functions,hosting
+[debug] [2019-02-05T02:40:03.295Z] CLI Version:   6.3.1
+[debug] [2019-02-05T02:40:03.295Z] Platform:      darwin
+[debug] [2019-02-05T02:40:03.295Z] Node Version:  v9.3.0
+[debug] [2019-02-05T02:40:03.296Z] Time:          Mon Feb 04 2019 20:40:03 GMT-0600 (CST)
+[debug] [2019-02-05T02:40:03.296Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-02-05T02:40:03.303Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-02-05T02:40:03.303Z] > authorizing via signed-in user
+[debug] [2019-02-05T02:40:03.304Z] [iam] checking project danielrehbeinwebsite for permissions ["firebase.projects.get"]
+[debug] [2019-02-05T02:40:03.305Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-02-05T02:40:03.305Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-02-05T02:40:03.522Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-05T02:40:03.531Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/danielrehbeinwebsite:testIamPermissions  
+
+[debug] [2019-02-05T02:40:03.835Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-05T02:40:03.837Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/danielrehbeinwebsite  
+ 
+[debug] [2019-02-05T02:40:04.084Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/danielrehbein/Sites/rehbeinwebsite'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2019-02-05T02:40:04.472Z] Fetching environment
+[debug] [2019-02-05T02:40:04.478Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/933721233999:getServerAppConfig  
+ 
+[debug] [2019-02-05T02:40:04.479Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/933721233999/clients/_:getWebAppConfig  
+ 
+[debug] [2019-02-05T02:40:05.687Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-05T02:40:05.687Z] Starting @google-cloud/functions-emulator
+[debug] [2019-02-05T02:40:06.102Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: dist/public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-02-05T02:40:06.732Z] Parsing function triggers
+[info] ✔  functions: test.hello: http://localhost:5001/danielrehbeinwebsite/us-central1/test-hello
+[info] ✔  functions: app.next: http://localhost:5001/danielrehbeinwebsite/us-central1/app-next
+[info] [hosting] Rewriting /test to local function app-next
+[info] [hosting] Rewriting / to local function app-next
+[debug] [2019-02-05T03:06:25.982Z] ----------------------------------------------------------------------
+[debug] [2019-02-05T03:06:25.984Z] Command:       /usr/local/Cellar/node/9.3.0_1/bin/node /Users/danielrehbein/Sites/rehbeinwebsite/node_modules/.bin/firebase serve --only functions,hosting
+[debug] [2019-02-05T03:06:25.985Z] CLI Version:   6.3.1
+[debug] [2019-02-05T03:06:25.985Z] Platform:      darwin
+[debug] [2019-02-05T03:06:25.985Z] Node Version:  v9.3.0
+[debug] [2019-02-05T03:06:25.985Z] Time:          Mon Feb 04 2019 21:06:25 GMT-0600 (CST)
+[debug] [2019-02-05T03:06:25.985Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-02-05T03:06:25.995Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-02-05T03:06:25.995Z] > authorizing via signed-in user
+[debug] [2019-02-05T03:06:25.995Z] [iam] checking project danielrehbeinwebsite for permissions ["firebase.projects.get"]
+[debug] [2019-02-05T03:06:25.996Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/danielrehbeinwebsite:testIamPermissions  
+
+[debug] [2019-02-05T03:06:26.354Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-05T03:06:26.355Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/danielrehbeinwebsite  
+ 
+[debug] [2019-02-05T03:06:26.599Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/danielrehbein/Sites/rehbeinwebsite'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2019-02-05T03:06:27.333Z] Fetching environment
+[debug] [2019-02-05T03:06:27.335Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/933721233999:getServerAppConfig  
+ 
+[debug] [2019-02-05T03:06:27.335Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/933721233999/clients/_:getWebAppConfig  
+ 
+[debug] [2019-02-05T03:06:27.621Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-05T03:06:27.621Z] Starting @google-cloud/functions-emulator
+[debug] [2019-02-05T03:06:27.787Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: dist/public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-02-05T03:06:28.667Z] Parsing function triggers
+[info] ✔  functions: app.next: http://localhost:5001/danielrehbeinwebsite/us-central1/app-next
+[info] ✔  functions: test.hello: http://localhost:5001/danielrehbeinwebsite/us-central1/test-hello
+[info] [hosting] Rewriting / to local function app-next
+[info] [hosting] Rewriting / to local function app-next
