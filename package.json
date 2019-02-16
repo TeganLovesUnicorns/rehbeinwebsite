@@ -16,7 +16,12 @@
     "install-deps": "cd \"dist/functions\" && yarn --ignore-engines"
   },
   "dependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/runtime": "^7.3.1",
     "@firebase/app": "^0.3.8",
+    "@firebase/app-types": "^0.3.3",
     "@firebase/firestore": "^0.1.2",
     "@google-cloud/functions-emulator": "^1.0.0-beta.5",
     "@zeit/next-css": "^1.0.1",
@@ -42,10 +47,6 @@
     "webpack": "^4.29.1"
   },
   "devDependencies": {
-    "@babel/cli": "^7.2.3",
-    "@babel/core": "^7.2.2",
-    "@babel/preset-env": "^7.3.1",
-    "@firebase/app-types": "^0.3.2",
     "cpx": "^1.5.0",
     "firebase-tools": "^6.3.1",
     "prettier": "^1.13.5",
