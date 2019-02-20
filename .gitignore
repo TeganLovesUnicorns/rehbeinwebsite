@@ -14,7 +14,7 @@
 # /functions
 functions/node_modules
 functions/build
-src/functions/node_modules
+# src/functions/node_modules
 # misc
 .DS_Store
 .firebase
@@ -23,5 +23,5 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 /package-lock.json
-lib/db.js
-src/lib/db.js
+src/app/lib/db.js
+firebase-debug.log
