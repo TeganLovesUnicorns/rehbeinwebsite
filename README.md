@@ -6,9 +6,8 @@
 - [Setting Up Cloud Firestore](#setting-up-cloud-firestore)
 - [Folder Structure](#folder-structure)
 - [Scripts](#scripts)
-  - [npm run dev](#npm-run-dev)
-  - [npm run build](#npm-run-build)
-  - [npm run start](#npm-run-start)
+  - [yarn dev](#yarn-dev)
+  - [yarn serve](#yarn-serve)
 - [Setup and Running Example](#running-example)
 - [Live Demo](#live-demo)
 
@@ -94,21 +93,13 @@ Then simply perform the command `npm run dev`.
 
 ## Scripts
 
-### `npm run dev`
+### `yarn dev`
 
 Runs the app in the development mode at [http://localhost:3000](http://localhost:3000).
 
-### `npm run build`
+### `yarn serve`
 
-Builds the app for production to the `.next` folder.<br>
-
-### `npm run start`
-
-Starts the application in production mode. 
-
-This script is made with heroku in mind. There is a port variable that needs to be
-specified for it to run. Heroku needs this for deployment.
-
+Starts the application locally in production mode. 
 
 ## Live Demo
 
