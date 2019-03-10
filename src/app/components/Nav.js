@@ -12,7 +12,7 @@ const Nav = () => (
     <Menu stackable>
         <Head title={'DanielRehbein.com'} />
         <Menu.Header>
-            <Image className="logo-item" src="/static/favicon.ico" size='mini' floated='left' />
+            <Image className="logo-item" src="static/favicon.ico" size='mini' floated='left' />
         </Menu.Header>
         <Menu.Item header>DanielRehbein.com</Menu.Item>
         <Link href="/">
