@@ -37,30 +37,61 @@ directory has been added for constant variable and to access the db.
 
 ```
 my-app/
-  README.md
+  src/
+    app/
+      actions/
+        index.js
+        PostActions.js
+        types.js
+      components/
+        AddPost.js
+        GalleryItem.js
+        Head.js
+        Loading.js
+        Nav.js
+        PostItem.js
+        PostList.js
+      lib/
+        db.js
+      pages/
+        _app.js
+        aboutUs.js
+        index.js
+        socialMedia.js
+      reducers/
+        PostReducer.js
+      static/
+        images/
+          short-paragraph.png
+        favicon.ico
+      styles/
+        main.scss
+      next.config.js
+      store.js
+      functions/
+        app/
+          app.js
+        test/
+          helloworld.js
+        .babelrc
+        .gitignore
+        index.js
+      public/
+        404.html
+        favicon.ico
+        placeholder.html
+    functions/
+    public/
+  .firebaserc
+  .gitignore
+  .prettierignore
+  .tool-versions
+  firebase.json
+  firestore.indexes.json
   package.json
-  next.config.js
-  components/
-    Head.js
-    Nav.js
-    AddPost.js
-    Loading.js
-    PostItem.js
-    PostList.js
-  pages/
-    index.js
-  lib/
-    const.js
-    db.js
-  static/
-    favicon.ico
-  reducers/
-    postReducer.js
-  actions/
-    index.js
-    types.js
-    postActions.js
-  store.js
+  README.md
+  storage.rules
+  yarn.lock
 ```
 
 ## Setting Up Cloud Firestore
@@ -89,7 +120,7 @@ To run the project simply clone this repository and navigate into it.
 
 Run npm install to acquire dependencies. 
 
-Then simply perform the command `npm run dev`.
+Then simply perform the command `yarn dev`.
 
 ## Scripts
 
