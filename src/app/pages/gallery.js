@@ -1,12 +1,10 @@
 import React from 'react'
 
-class AboutUs extends React.Component {
+class Gallery extends React.Component {
   render () {
     return (
         <div>
-          <h1>About Daniel Rehbein</h1>
-          <p>I have been interested in production since I was a young kid.
-          </p>
+            <h1>Client List</h1>
           {/* <style jsx>{`
             h1 {
               font-family: san-serif;
@@ -17,4 +15,4 @@ class AboutUs extends React.Component {
   }
 }
 
-export default AboutUs;
+export default Gallery;
